@@ -102,6 +102,7 @@ main {
 
 .Login button {
     margin-top: 1rem;
+    margin-bottom: 2rem;
     padding-block: 1rem;
     width: 100%;
     background: var(--purple);
@@ -113,9 +114,14 @@ main {
     color: var(--white);
 }
 
-.paragrafo {
-    padding-top: 1rem;
+.Login >p{
+    font-size: 1rem;
+    color: var(--gray-600);
 }
-    
+
+.Login > p a {
+    font-weight: 700;
+    font-size: 1rem;
+}
 
 /* nome da cor, rgb, rgba, hex, hsl, hwb*/
